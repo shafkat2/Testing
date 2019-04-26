@@ -1,7 +1,7 @@
 
 
 
-import static org.junit.assert.*;
+import static org.junit.Assert.*;
 
 public class BankAccountTest{
 
@@ -9,7 +9,7 @@ public class BankAccountTest{
     public void test(){
         BankAccount acc = new BankAccount();
         acc.deposit(50);
-        assertEquals(acc.balance, 50)
+        assertEquals(acc.balance, 50);
     }
 
 }
